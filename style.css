@@ -1,0 +1,158 @@
+body{
+  font-family: 'McLaren';
+  font-size:14px;
+}
+
+html{
+  background: url(img/background1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#grid
+{
+
+  width:900px;
+  height:900px;
+  color: #444;
+  margin: 0 auto;
+}
+
+.gameAlert
+{
+    width:900px;
+    height:50px;
+    background: red;
+    margin: 0 auto;
+    text-align: center;
+}
+.neigh
+{
+    position: relative;
+    margin: 10px;
+    background-image:url('img/green.png');
+    width:280px;
+    height:280px;
+    float:left;
+    text-align: center;
+}
+
+.neigh:hover
+{
+
+}
+
+.player
+{
+    margin: 10px;
+    position: relative;
+    float: left;
+    background-color:#329cc9;
+    width:280px;
+    height:280px;
+    text-align: center;
+    color:white;
+}
+.player:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#item_grid
+{
+  width: 840px;
+  height:800px;
+  margin: 0 auto;
+
+}
+.item
+{
+  width:400px;
+  height:150px;
+  background-color:#a3a8af;
+  float:left;
+  margin: 5px;
+  text-align:center;
+}
+
+.item:hover{
+  width:420px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+.item_info
+{
+  width:810px;
+  height:100px;
+  background-color:#7e8591;
+  float:left;
+  margin: 5px;
+}
+
+.button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+  background-color:#3DBA61;
+}
+
+.buttonRed
+{
+    background-color:#e55454;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonRed:hover{
+  background-color:#f66565;
+}
+
+
+.text
+{
+  text-align:center;
+  margin: 0 auto;
+  width:350px;
+  height:40px;
+}
+.text
+{
+  text-align:center;
+  width:350px;
+  height:40px;
+}
+.legendary
+{
+  color:#becbe2;
+  font-family: 'Libre Baskerville', serif;
+  font-size:14px;
+}
+
+.familyText
+{
+  background-color: #329cc9;
+  width: 220px;
+  border: 2px solid #fff;
+  color:white;
+  padding: 0px;
+  margin: 0 auto;
+
+}
